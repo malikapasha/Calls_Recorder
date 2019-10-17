@@ -1,4 +1,4 @@
-Automatic Phone Call Recorder for Android
+Automatic Phone Call Recorder for Android by Malik A Pasha
 
 An automatic phone call recorder, records ALL calls your phone gets. You can choose to not record some of your contacts, or you can record every call. Schedule
 recording cleanup and mark recordings to never be deleted (by the cleanup schedule).
