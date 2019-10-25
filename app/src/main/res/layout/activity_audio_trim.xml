@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorGrayAlpha"
+    android:background="@color/cr_bg"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorBg"
+            android:background="@color/cr_cards"
             android:orientation="horizontal">
 
             <TextView
@@ -28,7 +28,7 @@
                 android:layout_alignParentRight="true"
                 android:padding="10dp"
                 android:text="@string/upload"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/cr_dullwhite"
                 android:textSize="16sp"
                 android:visibility="invisible" />
 
@@ -40,7 +40,7 @@
                 android:layout_alignParentTop="true"
                 android:padding="10dp"
                 android:text="@string/cancel"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/cr_dullwhite"
                 android:textSize="16sp"
                 android:layout_alignParentLeft="true" />
 
@@ -166,6 +166,7 @@
                     android:id="@+id/llAudioBottom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
                     android:layout_alignParentBottom="true"
                     android:orientation="vertical">
 
@@ -178,7 +179,6 @@
                             android:layout_height="wrap_content"
                             android:padding="5dp"
                             android:text="Reset"
-                            android:textColor="@color/colorBlack"
                             android:textSize="12sp"
                             android:visibility="gone" />
 
@@ -198,7 +198,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
-                        android:background="@color/colorBlue"
+                        android:background="@color/cr_cards"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:padding="5dp">
@@ -207,7 +207,7 @@
                             android:id="@+id/txtAudioPlay"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/ic_play_btn" />
+                            android:background="@drawable/b" />
 
                         <TextView
                             android:id="@+id/txtAudioRecordUpdate"

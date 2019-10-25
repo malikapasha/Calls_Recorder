@@ -7,20 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/cr_bg"
     tools:context="com.circularbyte.callrecorder.SettingsActivity">
 
     <LinearLayout android:orientation="vertical"
         android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent">
         <TextView
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/cr_dullwhite"
+
             android:text="@string/pref_recording_category" />
     <CheckBox
         android:id="@+id/checkBox"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:layout_height="wrap_content"
         android:text="@string/pref_incoming_calls" />
 
@@ -28,6 +33,7 @@
         android:id="@+id/checkBox2"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:layout_height="wrap_content"
         android:text="@string/pref_outgoing_calls" />
 
@@ -35,6 +41,7 @@
         style="?android:attr/listSeparatorTextViewStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:text="@string/pref_storage_category" />
 
     <LinearLayout
@@ -48,12 +55,14 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/cr_dullwhite"
             android:text="@string/pref_location" />
 
         <Spinner
             android:id="@+id/spinner"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
+
             android:layout_height="wrap_content" />
     </LinearLayout>
 
@@ -62,12 +71,14 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:text="@string/pref_folder_name" />
 
     <TextView
         android:id="@+id/textView4"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:layout_height="wrap_content"
         android:text="@string/pref_folder_total_files" />
 
@@ -76,6 +87,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/cr_dullwhite"
         android:text="@string/pref_folder_total_files_size" />
 
     <TextView
@@ -83,12 +95,15 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/cr_dullwhite"
+
         android:text="@string/pref_folder_total_folder_size" />
 
     <TextView
         android:id="@+id/textView7"
         style="?android:attr/listSeparatorTextViewStyle"
         android:layout_width="match_parent"
+        android:textColor="@color/cr_dullwhite"
         android:layout_height="wrap_content"
         android:text="@string/pref_automatic_cleaning_category" />
 
@@ -103,6 +118,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/cr_dullwhite"
             android:text="@string/pref_automatic_cleaning_frequency" />
 
         <Spinner
@@ -111,13 +127,17 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/pref_automatic_cleaning_now"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/cr_dullwhite"
         android:id="@+id/button" />
 
     </LinearLayout>

@@ -7,7 +7,7 @@
     android:textOff="@string/toggle_off"
     android:textOn="@string/toggle_on"
     android:thumbTextPadding="25dp"
-    app:showText="true"
+
     android:gravity="center"
     android:switchPadding="5dp"
     app:switchPadding="5dp"

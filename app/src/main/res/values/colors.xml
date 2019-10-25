@@ -16,22 +16,19 @@
     <color name="colorPrimary">#4CAF50</color><!-- materialpalette: primary -->
     <color name="colorPrimaryDark">#388E3C</color><!-- materialpalette: primary_dark -->
     <color name="colorPrimaryLight">#c8e6c9</color><!-- materialpalette: primary_light -->
-    <color name="colorAccent">#FFC107</color><!-- materialpalette: accent -->
+    <color name="colorAccent">#13e5fd</color><!-- materialpalette: accent -->
     <color name="textColorPrimary">#212121</color><!-- materialpalette: primary_text -->
     <color name="textColorSecondary">#727272</color><!-- materialpalette: secondary_text -->
     <color name="listDivider">#B6B6B6</color><!-- materialpalette: divider -->
 
     <color name="colorTextIcons">#FFFFFF</color><!-- materialpalette: icons -->
-
-
     <color name="colorControlNormal">#757575</color>
     <color name="colorControlActivated">@color/colorAccent</color>
     <color name="colorControlHighlight">#FF5722</color>
     <color name="colorSwitchThumbNormal">#BDBDBD</color>
     <color name="colorButtonNormal">#BDBDBD</color>
     <color name="colorEdgeEffect">#FF4081</color>
-
-    <color name="switch_on">@color/colorAccent</color>
+    <color name="switch_on">@color/cr_bluish</color>
 
 <!--
     <color name="pressed_color">#FF5722</color>
@@ -52,4 +49,13 @@
     <color name="waveformSelected">#adb5cc</color>
     <color name="waveformUnselected">#adb5cc</color>
     <color name="waveformUnselectedBackground">#e8e6e7</color>
+
+
+    <color name="cr_bg">#2c3648</color>
+    <color name="cr_cards">#2d4969</color>
+    <color name="cr_white">#FAFAFA</color>
+    <color name="cr_dullwhite">#F5F5F5</color>
+    <color name="cr_bluish">#13e5fd</color>
+
+
 </resources>

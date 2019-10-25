@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CallRecorder-master.iml" filepath="$PROJECT_DIR$/CallRecorder-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calls_Recorder.iml" filepath="$PROJECT_DIR$/Calls_Recorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpeg_arm.0.3.2/ffmpeg_arm.0.3.2.iml" filepath="$PROJECT_DIR$/ffmpeg_arm.0.3.2/ffmpeg_arm.0.3.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/helpers/helpers.iml" filepath="$PROJECT_DIR$/helpers/helpers.iml" />

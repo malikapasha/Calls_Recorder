@@ -26,7 +26,7 @@
         android:visibility="visible"
         android:id="@+id/delete"
         android:layout_gravity="center_vertical"
-        android:src="@drawable/ic_cross"
+        android:src="@drawable/cr_close"
         android:layout_width="30dp"
         android:layout_height="30dp" />
 
@@ -40,7 +40,7 @@
         <ImageView
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="35dp"
-            android:src="@drawable/ic_audio"
+            android:src="@drawable/cr_music"
             android:layout_width="30dp"
             android:layout_height="30dp" />
         <LinearLayout

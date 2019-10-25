@@ -1,0 +1,2 @@
+com.github.hiteshsondhi88.libffmpeg
+string shipped_ffmpeg_version

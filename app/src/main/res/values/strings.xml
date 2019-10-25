@@ -3,19 +3,15 @@
     <string name="app_name">ACRT</string>
 
     <string name="about_app"><![CDATA[
-<h1>ACRT
+<h1>Call Recorder
 </h1><br>
-Automatic Phone Call Recorder<br>
+
 <p><br>
 Is there something missing from this app? Please let us know!<br>
 <br>
-Come visit us on the web at: <a href="http://jlcsoftware.com">http://jlcsoftware.com</a><br>
+Visit Our Site: <a href="https://Circularbyte.com">Circularbyte.com</a><br>
 </p>
-<p><small>Credits:<br>
-<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-<div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-<div>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-</small>
+
 ]]></string>
 
     <string name="action_about">About</string>
@@ -106,4 +102,15 @@ href="https://play.google.com/store/apps/developer?id=JL+Creative+Software">Goog
 
     <string name="cancel">Cancel</string>
     <string name="upload">Upload</string>
+
+
+    <string name="cr1">Call Recorder</string>
+    <string name="cr2">Powered By</string>
+    <string name="cr3">Circularbyte</string>
+    <string name="cr4">Upload</string>
+    <string name="cr5">Upload</string>
+
+
+
+
 </resources>
