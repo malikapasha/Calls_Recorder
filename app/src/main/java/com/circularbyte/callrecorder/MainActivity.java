@@ -39,6 +39,7 @@ import com.circularbyte.database.CallLog;
 import com.circularbyte.database.Database;
 import com.circularbyte.helpers.AboutDialog;
 import com.circularbyte.helpers.RateMeNowDialog;
+import com.google.android.gms.ads.MobileAds;
 
 import java.io.File;
 import java.io.IOException;
@@ -78,6 +79,8 @@ AudioTrimmerActivity audioTrimmerActivity;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // MobileAds.initialize(this);{}
+
 
         fab = (FloatingActionButton)findViewById(R.id.fab);
 
