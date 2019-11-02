@@ -26,6 +26,7 @@
         android:title="@string/action_delete"
         android:visible="false"
         app:showAsAction="always" />
+
     <item
         android:id="@+id/action_whitelist"
         android:orderInCategory="100"

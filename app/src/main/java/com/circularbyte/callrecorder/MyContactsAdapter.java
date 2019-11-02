@@ -77,9 +77,9 @@ public class MyContactsAdapter extends BaseAdapter implements Handler.Callback {
                                 contactRecord.image = drawable;
                             } else {
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                                    contactRecord.image = context.getResources().getDrawable(R.drawable.ic_user, null);
+                                    contactRecord.image = context.getResources().getDrawable(R.drawable.crr_persn, null);
                                 } else {
-                                    contactRecord.image = context.getResources().getDrawable(R.drawable.ic_user);
+                                    contactRecord.image = context.getResources().getDrawable(R.drawable.crr_persn);
                                 }
                             }
 

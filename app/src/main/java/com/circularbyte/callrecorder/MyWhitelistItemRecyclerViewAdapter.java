@@ -233,9 +233,9 @@ public class MyWhitelistItemRecyclerViewAdapter extends RecyclerView.Adapter<MyW
                 record.setImage(drawable);
             } else {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    record.setImage(context.getResources().getDrawable(R.drawable.ic_user, null));
+                    record.setImage(context.getResources().getDrawable(R.drawable.crr_persn, null));
                 } else {
-                    record.setImage(context.getResources().getDrawable(R.drawable.ic_user));
+                    record.setImage(context.getResources().getDrawable(R.drawable.crr_persn));
                 }
             }
         }

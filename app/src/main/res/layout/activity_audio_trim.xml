@@ -207,7 +207,7 @@
                             android:id="@+id/txtAudioPlay"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/b" />
+                            android:background="@drawable/control_background_multi_material" />
 
                         <TextView
                             android:id="@+id/txtAudioRecordUpdate"

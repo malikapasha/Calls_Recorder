@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+       android:src="@drawable/cr_mic" />
 
 
     <android.support.design.widget.FloatingActionButton
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start|bottom"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+        android:src="@drawable/cr_mail" />
 
 
 
